@@ -38,12 +38,24 @@ match([], _Dictionary, []).
 
 % Gives a template reply to the query sentence
 % --- Greetings
+pattern([hello,my,name,is,1],['Nice',to,meet,you,1,'!','How',are,you,doing,'?']).
+
+% Abilities
 pattern([i,can,1],['How',often,can,you,1,'?']).
 
 % --- Self
+pattern([i,am,not,1],['Why',aren,'''',t,you,1,'?']).
 pattern([i,am,1],['How',long,have,you,been,1,'?']).
 pattern([i,like,1],['Does',anyone,else,in,your,family,like,1,'?']).
-pattern([i,feel,1],['Do',you,often,feel,that,way,'?']).
+pattern([i,feel,1],['Do',you,often,feel,like,1,'?']).
+
+% --- Third person
+pattern([he,is,not,1],['What',makes,you,think,he,is,not,1,'?']).
+pattern([she,is,not,1],['What',makes,you,think,she,is,not,1,'?']).
+pattern([they,are,not,1],['What',makes,you,think,they,are,not,1,'?']).
+pattern([he,is,1],['Has',he,always,been,like,that,'?']).
+pattern([she,is,1],['Has',she,always,been,like,that,'?']).
+pattern([they,are,1],['Have',they,always,been,like,that,'?']).
 
 % --- Family and important people in life
 pattern([1,X,2],['Can',you,tell,me,more,about,your,X,'?']) :- important_people(X).
