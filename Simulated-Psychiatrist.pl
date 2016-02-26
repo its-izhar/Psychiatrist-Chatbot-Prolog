@@ -3,8 +3,8 @@
 
 % The main loop reads the input from the user, calls reply & stops when the user input is the word bye. 
 psychiatrist :-
-	write('Hello, I am a psychiatrist by profession. How can I help you?'),
-	nl,
+	write('Hello, I am a psychiatrist by profession.'), nl,
+	write('You seem to be in a problem. What is it?'), nl,
 	repeat,
 	write('--> '),
 	read_atomics(In),
@@ -15,7 +15,7 @@ psychiatrist :-
 reply([bye | _]) :-
 	write('Psychiatrist: bye'), nl, !.
 reply(In) :-
-	utterance(Out, In, []),
+	form_reply(Out, In, []),
 	!,
 	write('Psychiatrist: '),
 	print_reply(Out),
@@ -23,17 +23,17 @@ reply(In) :-
 
 
 % Templates Rules
-utterance(['Why', aren, '''', t, you | Y]) --> ['I', am, not], end(Y).
-utterance(['How', long, have, you, been | Y]) --> ['I', am], end(Y).
-utterance(['Why', do, you, like | Y]) --> ['I', like], end(Y).
-utterance(['Do', you, often, think, of | Y]) --> beginning(_), ['I', remember], end(Y).
-utterance(['Please', tell, me, more, about, your,X, .]) --> beginning(_), [X], end(_), {important_people(X)}.
-utterance(['Why', are, so, negative, '?']) --> [no].
-utterance(['Tell', me, more, .]) --> [_].
-utterance(['Please', go, on, .]) --> beginning(_).
+form_reply(['Why', aren, '''', t, you | Y]) --> [i, am, not], end(Y).
+form_reply(['How', long, have, you, been | Y]) --> [i, am], end(Y).
+form_reply(['Why', do, you, like | Y]) --> [i, like], end(Y).
+form_reply(['Do', you, often, think, of | Y]) --> beginning(_), [i, remember], end(Y).
+form_reply(['Please', tell, me, more, about, your,X, .]) --> beginning(_), [X], end(_), {important_people(X)}.
+form_reply(['Why', are, so, negative, '?']) --> [no].
+form_reply(['Tell', me, more, .]) --> [_].
+form_reply(['Please', go, on, .]) --> beginning(_).
 
 
-% Link the pieces of the utterance
+% Link the pieces of the form_reply
 beginning(X, Y, Z) :- append(X, Z, Y).
 end(X, Y, Z) :- append(X, Z, Y).
 
