@@ -1,0 +1,94 @@
+Welcome to SWI-Prolog (Multi-threaded, 32 bits, Version 7.2.3)
+Copyright (c) 1990-2015 University of Amsterdam, VU Amsterdam
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+Please visit http://www.swi-prolog.org for details.
+
+For help, use ?- help(Topic). or ?- apropos(Word).
+
+1 ?- start_session.
+
+
+Hello, I am a psychiatrist by profession.
+You seem to be in a problem. What is it?
+
+--> i am not good
+Psychiatrist: Why aren ' t you good ? 
+
+--> i cannot express my feelings
+Psychiatrist: What would happen if you could express my feelings ? 
+
+--> i feel emotional
+Psychiatrist: Do you often feel like that ? 
+
+--> yes sometimes
+Psychiatrist: Good ! Tell me more 
+
+--> i feel terrible today
+Psychiatrist: Can you elaborate this more ? 
+
+--> i should talk to my mother about this
+Psychiatrist: What else do you think you should do ? 
+
+--> talk to my mother for now
+Psychiatrist: Can you tell me more about your mother ? 
+
+--> she is considerate
+Psychiatrist: Has she always been like that ? 
+
+--> yes always
+Psychiatrist: Good ! Tell me more 
+
+--> she understands me better
+Psychiatrist: I understand . Please continue . 
+
+--> i did bad on my exam
+Psychiatrist: I understand . Please continue . 
+
+--> i feel sorry for her
+Psychiatrist: Do you often feel like that ? 
+
+--> no just this time
+Psychiatrist: Why not ? 
+
+--> because i don't usually do bad on exams
+Psychiatrist: I see . Please continue . 
+
+--> i should have studied better
+Psychiatrist: How do you feel about it ? 
+
+--> extremely bad
+Psychiatrist: I understand . Please continue . 
+
+--> i should have taken notes in the class
+Psychiatrist: What would have happened if you would have taken notes in the class ? 
+
+--> i would pass the class
+Psychiatrist: I see . Please continue . 
+
+--> i will not let this happen again
+Psychiatrist: How do you feel about it ? 
+
+--> i feel determined
+Psychiatrist: Do you often feel like that ? 
+
+--> yes this time it is even more stronger
+Psychiatrist: Good ! Tell me more 
+
+--> i will study hard
+Psychiatrist: Why do you think you should study hard ? 
+
+--> to achieve success
+Psychiatrist: I see . Please continue . 
+
+--> i will tell my mom about this
+Psychiatrist: Why do you think you should tell my mom about this ? 
+
+--> *my mom
+Psychiatrist: I see . Please continue . 
+
+--> thank you
+Psychiatrist: My Pleasure ! 
+
+--> bye
+Goodbye. I hope I have helped you

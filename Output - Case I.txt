@@ -1,0 +1,121 @@
+Welcome to SWI-Prolog (Multi-threaded, 32 bits, Version 7.2.3)
+Copyright (c) 1990-2015 University of Amsterdam, VU Amsterdam
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+Please visit http://www.swi-prolog.org for details.
+
+For help, use ?- help(Topic). or ?- apropos(Word).
+
+1 ?- start_session.
+
+
+Hello, I am a psychiatrist by profession.
+You seem to be in a problem. What is it?
+
+--> hello my name is john
+Psychiatrist: Nice to meet you john ! How are you doing ? 
+
+--> i am not happy
+Psychiatrist: Why aren ' t you happy ? 
+
+--> because i am going through a lot of stress
+Psychiatrist: I understand . Please continue . 
+
+--> i feel terrible
+Psychiatrist: Can you elaborate this more ? 
+
+--> i had a fight with my brother
+Psychiatrist: Can you tell me more about your brother ? 
+
+--> he is a rude guy
+Psychiatrist: Has he always been like that ? 
+
+--> no just lately
+Psychiatrist: Why not ? 
+
+--> he is not harsh most of the times but sometimes he is
+Psychiatrist: What makes you think he is not harsh most of the times but sometimes he is ? 
+
+--> because when we were kids he used to take care of me
+Psychiatrist: I see . Please continue . 
+
+--> he has been like a father figure always
+Psychiatrist: What do you think might be the reason of that ? 
+
+--> because my father passed away when i was 3
+Psychiatrist: Can you tell me more about your father ? 
+
+--> i feel terrible when i think of him
+Psychiatrist: Do you often feel like that ? 
+
+--> yes very often
+Psychiatrist: Good ! Tell me more 
+
+--> i should not talk more about him
+Psychiatrist: Why do you think you should not talk more about him ? 
+
+--> because i don't want to
+Psychiatrist: I understand . Please continue . 
+
+--> i cannot understand why my brother looks down upon me
+Psychiatrist: What would happen if you could understand why my brother looks down upon me ? 
+
+--> i would feel good
+Psychiatrist: I see . Please continue . 
+
+--> i think it's because of his friends
+Psychiatrist: I understand . Please continue . 
+
+--> they are not nice and they changed him
+Psychiatrist: What makes you think they are not nice and they changed him ? 
+
+--> since he started hanging out with them i can see the change in his behaviour
+Psychiatrist: I understand . Please continue . 
+
+--> i should talk to him about this
+Psychiatrist: Is there something special about it ? 
+
+--> i should not let his friends change him
+Psychiatrist: What else do you think you should not do ? 
+
+--> i should have talked with him earlier
+Psychiatrist: How do you feel about it ? 
+
+--> i feel very very sad
+Psychiatrist: What makes you feel very very sad ? 
+
+--> the fact that i did not talk to him before
+Psychiatrist: I understand . Please continue . 
+
+--> i can make peace with him
+Psychiatrist: What else can you do ? 
+
+--> i can make him change again for me
+Psychiatrist: Oh you can ! Can you ? 
+
+--> yes
+Psychiatrist: Good ! Tell me more 
+
+--> i will not let any of his friends change my bond with him
+Psychiatrist: Why do you think so ? 
+
+--> because he is my brother
+Psychiatrist: Can you tell me more about your brother ? 
+
+--> i think i am okay now
+Psychiatrist: I understand . Please continue . 
+
+--> i will talk to him
+Psychiatrist: Will you feel happy after doing that ? 
+
+--> very very happy
+Psychiatrist: I understand . Please continue . 
+
+--> i feel good now
+Psychiatrist: I feel good too ! 
+
+--> thank you
+Psychiatrist: I am glad I could help ! 
+
+--> bye
+Goodbye. I hope I have helped you
